@@ -1,60 +1,6 @@
 /*
-Qajax.get(url,data?,options?).then(result=>{...}).catch(err=>{...})
-
-*when all request success, call then
-Qajax.all([
-    Qajax.get(url,data?,options?).then(result=>{...}).catch(err=>{...}),
-    Qajax.get(url,data?,options?).then(result=>{...}).catch(err=>{...}),
-    Qajax.get(url,data?,options?).then(result=>{...}).catch(err=>{...})
-]).then(result=>{...}).catch(err=>{...})
-
-*when any of the request success, call then
-Qajax.any([
-    Qajax.get(url,data?,options?).then(result=>{...}).catch(err=>{...}),
-    Qajax.get(url,data?,options?).then(result=>{...}).catch(err=>{...}),
-    Qajax.get(url,data?,options?).then(result=>{...}).catch(err=>{...})
-]).then(result=>{...}).catch(err=>{...})
-
-method
-    get
-    delete
-    head
-    options
-    post
-    put
-    patch
-
-default setting
-    timeout: 500
-    dataType: JSON
-    charset: uft-8
-    withCredentials: false
-    cache: true
-    mode: 'normal'
-
-options
-    charset
-    dataType：JSON FORM FORM-MEDIA TEXT
-    charset
-    cache
-    timeout
-    withCredentials
-    validateStatus：must be a function, import StatusCode, return bool
-    headers
-    mode：'normal' 'advanced'
-    dataRoster：must be a function, default import raw data, return new data
- */
-
-/*
-Qajax.jsonp(url,data?,options?).then(result=>{...}).catch(err=>{...})
-
-serverCallbackName：callbackName server received，default is 'callback'
-timeout
- */
-
-/*
  * VERSION: 1.0.0
- * DATE: 2018-10-13
+ * RELEASE: 2018
  *
  * @author: Jiawei Zhou, leftscenery@gmail.com
  */
