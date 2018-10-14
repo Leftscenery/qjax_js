@@ -1,8 +1,6 @@
 Qjax_js
 ---
 
-<br/>
-
 #### Introduction:
 Qjax.js is a javascript plugin that could send request easily, also support jsonp.
 
