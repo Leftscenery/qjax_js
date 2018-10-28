@@ -119,7 +119,7 @@ Qjax.get(url[, data?][, options?]).then(successFn).catch(failedFn)
             + statesText: status description
     + **charset**: encoded
         + 'utf-8' (default)
-    + **dataType**: passd data type
+    + **dataType**: passed data type
         + 'JSON' (default)
         + 'FORM': pass data get from form
         + 'FORM_MEDIA': get media from form and pass it
